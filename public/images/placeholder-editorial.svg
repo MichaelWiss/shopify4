@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540">
+  <defs>
+    <linearGradient id="editorial" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFC928"/>
+      <stop offset="100%" stop-color="#0FA7A5"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#editorial)"/>
+  <g transform="translate(180 100)" fill="none" stroke="#FFEFD5" stroke-width="10">
+    <circle cx="160" cy="160" r="120" fill="#FFEFD5" stroke="none"/>
+    <circle cx="480" cy="160" r="120" fill="#FFEFD5" stroke="none"/>
+    <path d="M100 320 Q160 240 220 320" stroke-linecap="round"/>
+    <path d="M420 320 Q480 240 540 320" stroke-linecap="round"/>
+    <rect x="240" y="120" width="160" height="240" rx="40" stroke="#FFEFD5" opacity="0.65"/>
+  </g>
+  <text x="50%" y="88%" font-family="Inter, sans-serif" font-size="54" font-weight="800" text-anchor="middle" fill="#0E0A08">
+    Natural Wine Pairing
+  </text>
+</svg>

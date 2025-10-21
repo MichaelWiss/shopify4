@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720">
+  <defs>
+    <linearGradient id="hero-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFE3BC"/>
+      <stop offset="100%" stop-color="#FFD2A3"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="720" fill="url(#hero-bg)" rx="40"/>
+  <g transform="translate(160 160)">
+    <rect width="640" height="400" rx="36" fill="#FFEFD5" stroke="#0E0A08" stroke-width="8"/>
+    <g transform="translate(60 80)" fill="none" stroke-linecap="round">
+      <path d="M0 120 C60 20 140 20 200 120 C260 220 340 220 400 120 C460 20 540 20 600 120" stroke="#FF6E5B" stroke-width="24"/>
+      <path d="M20 160 C80 60 160 60 220 160 C280 260 360 260 420 160 C480 60 560 60 620 160" stroke="#FFC928" stroke-width="20" opacity="0.85"/>
+      <path d="M40 200 C100 110 180 110 240 200 C300 290 380 290 440 200 C500 110 580 110 640 200" stroke="#0FA7A5" stroke-width="18" opacity="0.7"/>
+    </g>
+    <text x="50%" y="340" font-family="Inter, sans-serif" font-size="80" font-weight="900" text-anchor="middle" fill="#0E0A08">Melty Grocery Culture</text>
+  </g>
+</svg>

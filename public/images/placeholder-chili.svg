@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <defs>
+    <linearGradient id="bg-chili" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF6E5B"/>
+      <stop offset="100%" stop-color="#FFC928"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="480" fill="url(#bg-chili)" rx="48"/>
+  <circle cx="320" cy="200" r="110" fill="#FFEFD5" opacity="0.92"/>
+  <path d="M280 180 C280 140 360 120 400 190 C420 220 380 280 330 300 C290 260 250 240 280 180Z" fill="#0FA7A5"/>
+  <path d="M270 150 C250 110 270 80 290 70 C310 90 310 120 300 150Z" fill="#0E0A08"/>
+  <text x="50%" y="82%" fill="#0E0A08" font-family="Inter, sans-serif" font-size="44" font-weight="700" text-anchor="middle">Umami Chili Oil</text>
+</svg>

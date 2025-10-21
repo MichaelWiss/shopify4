@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFE3BC"/>
+      <stop offset="100%" stop-color="#FFB680"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="480" fill="url(#bg)" rx="48"/>
+  <rect x="140" y="120" width="360" height="240" rx="32" fill="#FF6E5B"/>
+  <rect x="150" y="130" width="340" height="220" rx="24" fill="#FFEFD5"/>
+  <text x="50%" y="50%" fill="#0E0A08" font-family="Inter, sans-serif" font-size="48" font-weight="700" dominant-baseline="middle" text-anchor="middle">Stretch Block</text>
+</svg>

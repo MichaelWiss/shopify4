@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <defs>
+    <linearGradient id="recipe1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFD8B6"/>
+      <stop offset="100%" stop-color="#FFC796"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="480" rx="40" fill="url(#recipe1)"/>
+  <g transform="translate(120 120)" fill="#FF6E5B">
+    <rect width="400" height="240" rx="32" fill="#FFEFD5" stroke="#0E0A08" stroke-width="8"/>
+    <rect x="40" y="40" width="320" height="160" rx="24" fill="#FFC928" opacity="0.7"/>
+    <path d="M60 120 C120 40 200 40 260 120 C320 200 400 200 360 120" fill="#FF6E5B" opacity="0.8"/>
+  </g>
+  <text x="50%" y="85%" text-anchor="middle" font-family="Inter, sans-serif" font-size="44" font-weight="700" fill="#0E0A08">Crispy Ziti</text>
+</svg>
