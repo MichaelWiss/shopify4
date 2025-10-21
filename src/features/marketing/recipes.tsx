@@ -1,60 +1,34 @@
-import Image from "next/image";
-
-import { ViewportFadeIn } from "@/components/viewport-fade-in";
-
-const recipes = [
-  {
-    title: "Crispy-Edge Baked Ziti",
-    description: "Broiled finish for bubbly tops and golden corners.",
-    image: "/images/placeholder-recipe-1.svg"
-  },
-  {
-    title: "Weeknight Ramen + Shreds",
-    description: "Sticky strands cling to noodles — low effort, high joy.",
-    image: "/images/placeholder-recipe-2.svg"
-  },
-  {
-    title: "Sheet-Pan Toast Melts",
-    description: "All crunch, no fuss. Tray bake and slice.",
-    image: "/images/placeholder-recipe-3.svg"
-  }
-];
-
 export function RecipesSection() {
   return (
-    <section
-      id="recipes"
-      className="border-y-2 border-ink bg-[#FFD8B6] py-16"
-      aria-labelledby="recipes-heading"
-    >
-      <div className="mx-auto max-w-6xl px-4">
-        <ViewportFadeIn>
-          <h2 id="recipes-heading" className="text-3xl font-black text-ink sm:text-4xl">
-            Recipes that love a good melt
-          </h2>
-        </ViewportFadeIn>
-        <div className="mt-10 grid gap-6 lg:grid-cols-[1.2fr_1fr_1fr]">
-          {recipes.map((recipe, index) => (
-            <ViewportFadeIn key={recipe.title} delay={index * 120}>
-              <article className="flex h-full flex-col overflow-hidden border-2 border-ink bg-paper shadow-[8px_8px_0_0_#0E0A08]">
-                <div className="relative aspect-[4/3] border-b-2 border-ink">
-                  <Image
-                    src={recipe.image}
-                    alt={recipe.title}
-                    fill
-                    sizes="(min-width: 1024px) 33vw, 90vw"
-                    className="object-cover"
-                  />
-                </div>
-                <div className="flex flex-1 flex-col gap-2 p-6">
-                  <h3 className="text-xl font-black text-ink">{recipe.title}</h3>
-                  <p className="text-sm text-ink/70">{recipe.description}</p>
-                </div>
-              </article>
-            </ViewportFadeIn>
-          ))}
+    <section id="recipes" className="recipes" aria-labelledby="recipes-heading">
+      <article className="recipe">
+        <div className="ph" aria-hidden="true" />
+        <div>
+          <h4>Kimchi Grilled Cheese</h4>
+          <p>Salty-funky-lava with crisp edges. Our block loves a pan.</p>
         </div>
-      </div>
+      </article>
+      <article className="recipe">
+        <div className="ph" aria-hidden="true" />
+        <div>
+          <h4>Ddukbokki à la Plant</h4>
+          <p>Sticky rice cakes, gochujang, melty cubes. Dentistry optional.</p>
+        </div>
+      </article>
+      <article className="recipe">
+        <div className="ph" aria-hidden="true" />
+        <div>
+          <h4>Noodle Party Salad</h4>
+          <p>Cold chews, glossy sauce, shaved block snowstorm.</p>
+        </div>
+      </article>
+      <article className="recipe">
+        <div className="ph" aria-hidden="true" />
+        <div>
+          <h4>Strawberry Gochu Spritz</h4>
+          <p>Acid, bubbles, and a pinch of heat.</p>
+        </div>
+      </article>
     </section>
   );
 }

@@ -1,14 +1,14 @@
 import { ReactNode } from "react";
 
-import { SiteFooter } from "@/components/site-footer";
-import { SiteHeader } from "@/components/site-header";
+import { AvantFooter } from "@/components/avant-footer";
+import { AvantHeader } from "@/components/avant-header";
 
 export default function StorefrontLayout({ children }: { children: ReactNode }) {
   return (
     <>
-      <SiteHeader />
+      <AvantHeader />
       {children}
-      <SiteFooter />
+      <AvantFooter />
     </>
   );
 }

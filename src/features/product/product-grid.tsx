@@ -22,7 +22,7 @@ export async function ProductGridSection() {
             </h2>
           </div>
         </ViewportFadeIn>
-        <div className="mt-10 grid gap-6 sm:grid-cols-2 xl:grid-cols-4">
+        <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {products.map((product, index) => (
             <ViewportFadeIn key={product.id} delay={index * 80}>
               <ProductCard product={product} />
